@@ -1,6 +1,6 @@
 # Entropy and ML-based Network Attack Detection
 
-## 📖 Description
+## Description
 
 This project focuses on detecting various network attacks, including **PortScan**, **DDoS**, and **DoS (HULK, SlowHTTPTest)**, using two primary approaches: **Machine Learning (ML)** and **Information Theory**.
 
@@ -11,11 +11,11 @@ This project focuses on detecting various network attacks, including **PortScan*
 The project compares these two methods, highlighting their strengths and weaknesses, and provides a comprehensive evaluation of their performance against different attack types.
 
 > **Note**: Some files are massive. Please refer to the Drive link below to download all files:  
-> 📁 [Google Drive Folder](https://drive.google.com/drive/folders/1zPcoCk3V0I2L33n6iyS57zzk_mRdSnnb?usp=sharing)
+> [Google Drive Folder](https://drive.google.com/drive/folders/1zPcoCk3V0I2L33n6iyS57zzk_mRdSnnb?usp=sharing)
 
 ---
 
-## 🛠️ Tools and Technologies
+## Tools and Technologies
 
 - **Kali Linux** – for attack simulation  
 - **Scapy** – for packet manipulation  
@@ -27,13 +27,13 @@ The project compares these two methods, highlighting their strengths and weaknes
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 The dataset includes **benign traffic** and various attack types (e.g., **FTP-Patator, SSH-Patator, DoS, PortScan, DDoS**) collected over a week.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 | Directory         | Description                                                                 |
 |------------------|-----------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ The dataset includes **benign traffic** and various attack types (e.g., **FTP-Pa
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Create Database
 
@@ -112,7 +112,7 @@ python manage.py runserver
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Run Packet Capturer
 
@@ -140,7 +140,7 @@ python manage.py runserver
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 | **Approach**         | **Metric**                     | **Value** |
 |----------------------|--------------------------------|-----------|
@@ -156,7 +156,7 @@ python manage.py runserver
 
 ---
 
-## 🧰 Technologies
+## Technologies
 
 | **Category**      | **Tools**                     |
 |------------------|-------------------------------|
@@ -169,7 +169,7 @@ python manage.py runserver
 
 ---
 
-## 📎 Additional Documentation
+## Additional Documentation
 
 All files required for the project are available in this Drive folder:  
-👉 [Google Drive Folder](https://drive.google.com/drive/folders/1zPcoCk3V0I2L33n6iyS57zzk_mRdSnnb?usp=sharing)
+== > [Google Drive Folder](https://drive.google.com/drive/folders/1zPcoCk3V0I2L33n6iyS57zzk_mRdSnnb?usp=sharing)
