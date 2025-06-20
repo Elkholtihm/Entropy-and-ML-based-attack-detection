@@ -15,6 +15,11 @@ The project compares these two methods, highlighting their strengths and weaknes
 
 ---
 
+## Architecture
+![System Architecture](./architecture.png)
+
+---
+
 ## Tools and Technologies
 
 - **Kali Linux** – for attack simulation  
