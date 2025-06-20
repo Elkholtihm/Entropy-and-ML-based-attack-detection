@@ -1,0 +1,10 @@
+channels
+django
+python-decouple
+mysqlclient
+whitenoise
+mysql-connector-python
+scapy
+pandas
+scikit-learn=1.2.2
+tensorflow

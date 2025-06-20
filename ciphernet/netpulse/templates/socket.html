@@ -1,0 +1,24 @@
+<!-- netpulse/templates/socket.html -->
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anouar Data Stream</title>
+    <style>
+        #output {
+            white-space: pre-wrap;  /* Preserve formatting and wrap text */
+            font-family: monospace;
+            background: #f5f5f5;
+            padding: 10px;
+            border: 1px solid #ddd;
+            height: 300px;
+            overflow-y: auto;       /* Scrollable output */
+        }
+    </style>
+    <script src="{% static 'js/socket.js' %}"></script>
+</head>
+<body>
+    <h1>Anouar Real-Time Data</h1>
+    <pre id="output">Connecting...</pre>
+</body>
+</html>

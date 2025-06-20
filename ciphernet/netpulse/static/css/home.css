@@ -1,0 +1,250 @@
+/* ==========================================================header part==========================================*/
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styling */
+  .header {
+    background: #1f0886; /* Dark background */
+    padding: 15px 0;
+  }
+  
+  /* Container for Layout */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Navigation List */
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between items */
+  }
+  
+  /* Navigation Items */
+  .nav-item {
+    padding: 5px 0;
+  }
+  
+  /* Navigation Links */
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    background: #34495e;
+    border-radius: 5px;
+  }
+
+/* ==========================================================main part==========================================*/
+  
+/* Welcome Section */
+.welcome-section {
+    background-color: #f4f6e8; /* Light background color */
+    padding: 100px 20px; /* Space around the content */
+    text-align: center;
+  }
+  
+  .welcome-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .welcome-section h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-section p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #007bff; /* Button color */
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+/* Features Section */
+/* Features Section */
+.features-section {
+    background-color: #ffffff; /* White background */
+    padding: 80px 20px; /* Space around content */
+    text-align: center;
+  }
+  
+  .features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .features-section h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 50px;
+  }
+  
+  /* Flexbox for Cards Layout */
+  .features-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+  }
+  
+  /* Each card style */
+  .feature-card {
+    background-color: #f9f9f9; /* Light background for cards */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    flex: 1;
+    max-width: 30%; /* Controls the card size */
+    min-width: 250px; /* Minimum width for responsiveness */
+    text-align: left;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.6em;
+    color: #007bff; /* Blue color for titles */
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  
+/* ==========================================================footer part==========================================*/
+/* Footer Section */
+/* Footer Section */
+.footer {
+    background-color: #2898e2;
+    color: #fff;
+    padding: 4px 20px;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  /* Footer Container - Using Flexbox for layout */
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Spreads out the left, center, and right sections */
+    align-items: center; /* Vertically centers items */
+    flex-wrap: wrap; /* Ensures content wraps on smaller screens */
+  }
+  
+  /* Left Section (Copyright) */
+  .footer-left {
+    flex: 1;
+    padding: 10px;
+    text-align: left; /* Aligns the copyright text to the left */
+  }
+  
+  /* Center Section (Footer Links) */
+  .footer-center {
+    flex: 2;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* List of links */
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+  }
+  
+  .footer-links a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  /* Right Section (Social Media Icons and Names) */
+  .footer-right {
+    flex: 1;
+    padding: 10px;
+    text-align: right; /* Aligns social icons and names to the right */
+    display: flex;
+    justify-content: flex-end; /* Aligns all the icon divs to the right */
+    gap: 20px; /* Adds space between the social icon divs */
+  }
+  
+  .social-icon {
+    display: flex;
+    flex-direction: column; /* Aligns the icon and name vertically */
+    align-items: center; /* Centers both the icon and the name */
+    gap: 5px; /* Adds space between the icon and name */
+  }
+  
+  .social-link {
+    display: block;
+    width: 40px; /* Adjust icon size */
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .social-link img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .social-name {
+    font-size: 12px;
+    color: #fff;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .social-link:hover {
+    background-color: #007bff; /* Hover effect for social icons */
+  }
+  
+  .social-name:hover {
+    color: #007bff; /* Hover effect for social names */
+  }
+  

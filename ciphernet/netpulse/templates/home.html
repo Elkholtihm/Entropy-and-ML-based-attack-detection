@@ -1,0 +1,119 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="This application monitors network traffic for anomalies and provides real-time alerts.">
+            <meta name="keywords" content="network monitoring, anomaly detection, security, alerts">
+            <meta name="author" content="Your Name or Your Company">
+            <meta property="og:title" content="Network Monitoring Application">
+            <meta property="og:description" content="Real-time network monitoring and anomaly detection.">
+            <meta property="og:image" content="image.jpg">
+            <meta property="og:url" content="https://yourwebsite.com">
+            
+            <title>Network Monitoring Application</title>
+          
+            <!-- Link to external stylesheet -->
+            <link rel="stylesheet" href="{% static 'css/home.css' %}">
+            <!-- Favicon -->
+            <link rel="icon" href="favicon.ico" type="image/x-icon">
+          
+            <!-- Google Fonts -->
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+          
+            <!-- Bootstrap CSS for responsive design -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+          
+            <!-- Font Awesome for icons -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+          </head>          
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+              <nav class="navbar">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="{% url 'home' %}" class="nav-link">Home</a></li>
+                  <li class="nav-item"><a href="{% url 'dashboard' %}" class="nav-link">Dashboard </a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Anomaly Reports</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Traffic Analysis</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Alerts & Notifications</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Settings & Configurations</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+        <main>
+            <section class="welcome-section">
+                <div class="welcome-container">
+                  <h1>Welcome to Network Anomaly Detection</h1>
+                  <p>Detect and monitor suspicious network activity in real-time with ease.</p>
+                  <a href="#start" class="cta-button">Start Monitoring</a>
+                </div>
+            </section>
+            <section class="features-section">
+                <div class="features-container">
+                  <h2>Key Features</h2>
+                  <div class="features-cards">
+                    <div class="feature-card">
+                      <h3>Real-Time Monitoring</h3>
+                      <p>Track network activity as it happens with real-time alerts and reports.</p>
+                    </div>
+                    <div class="feature-card">
+                      <h3>Advanced Anomaly Detection</h3>
+                      <p>Leverage machine learning models to detect suspicious network behavior.</p>
+                    </div>
+                    <div class="feature-card">
+                      <h3>Comprehensive Dashboard</h3>
+                      <p>View detailed analytics and historical data in an easy-to-read dashboard.</p>
+                    </div>
+                  </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+              <!-- Left Section: Copyright -->
+              <div class="footer-left">
+                <p>&copy; 2025 YourAppName. All Rights Reserved.</p>
+              </div>
+              
+              <!-- Center Section: Footer Links -->
+              <div class="footer-center">
+                <ul class="footer-links">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+          
+              <!-- Right Section: Social Media Icons and Names -->
+              <div class="footer-right">
+                <div class="social-icon">
+                  <a href="#" class="social-link">
+                    <img src="facebook-icon.png">
+                    <span class="social-name">Facebook</span>
+                  </a>
+                </div>
+                <div class="social-icon">
+                  <a href="#" class="social-link">
+                    <img src="twitter-icon.png">
+                    <span class="social-name">Twitter</span>
+                  </a>
+                </div>
+                <div class="social-icon">
+                  <a href="#" class="social-link">
+                    <img src="linkedin-icon.png">
+                    <span class="social-name">LinkedIn</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </footer>          
+    </body>
+</html>
